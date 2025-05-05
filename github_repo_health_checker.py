@@ -2,7 +2,7 @@ import requests
 from tabulate import tabulate
 
 # --- CONFIG ---
-GITHUB_TOKEN = None  # Optional: add a GitHub token if hitting rate limits
+GITHUB_TOKEN = None 
 
 HEADERS = {
     "Accept": "application/vnd.github+json"
